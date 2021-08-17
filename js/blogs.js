@@ -4,7 +4,7 @@ const card = document.querySelector('.--card');
 const cardData = [
 
     {
-        img: "../images/localstorage.png",
+        img: "images/localstorage.png",
         heading: "Web Storage API - Local Storage",
         description: "HTML5 introduced localStorage as a way to store data without any expiry date in the web browser.",
         more: "https://git-0r.hashnode.dev/web-storage-api-localstorage",
