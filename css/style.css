@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Oxanium:wght@400;500;700&family=Roboto&display=swap');
+
+* {
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #171820;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.meimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1d26;
+    margin: 0;
+}
+
+.--nav-name{
+    font-family: 'Gugi', cursive;
+    display: flex;
+    line-height: 50px;
+    letter-spacing: 0.5rem;
+}
+
+.--nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.--nav-link{
+    background-color: #ff6663;
+    text-transform: uppercase;
+    padding: 0.4rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.--nav-link:hover {
+    background-color: #fd8684;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw 5rem 10vw;
+}
+
+
+.--about-me{
+    margin: 2rem auto;
+    font-family: 'Gugi', cursive;
+    font-size: 6vw;
+    letter-spacing: 0.5rem;
+
+}
+
+.--head-aboutMe{
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.--coding-illustration{
+    width: 30vw;
+}
+
+h2{
+    font-size: 3vw;
+    font-family: 'Oxanium', cursive;
+}
+
+section{
+    margin: 5rem 0;
+}
+
+.--toolbox-icons{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.--tool {
+    background-color: #1c1d26;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+
+}
+
+.--icon {
+    font-size: 5vw;
+}
+
+.--cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.--card{
+    background-color: #1c1d26;
+    padding: 0.5rem;
+    width: 400px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.--card-img{
+    width: 100%;
+    display: block;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.--card-info-link{
+    border: 2px solid grey;
+    color: grey;
+    border-radius: 5px;
+    padding: 00.2rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.--card-view{
+    display: inline-block;
+    background-color: #ff6663;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+}
+
+.--view-all{
+    background-color: #5626a9;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+}
+
+/* .blogs .--card{
+    width: 300px;
+} */
+
+footer{
+    background-color: #1c1d26;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.--footer-social-icons {
+    font-size: 3vw;
+    cursor: pointer;
+    margin: 0;
+}
+
+.code {
+    margin-right: 1rem;
+    background-color: #1c1d26;
+    border: 1px solid white;
+}
+
+@media (max-width:768px) {
+    
+    nav{
+        justify-content: center;
+    }
+    .--nav-name{
+        display: none;
+    }
+
+    header{
+        margin: 2rem 10vw 2rem 10vw;
+        flex-direction: column-reverse;
+    }
+
+    .--about-me{
+        font-size: 10vw;
+    }
+    .--head-aboutMe{
+        font-size: 4vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .--coding-illustration{
+        width: 70vw;
+    }
+
+    h2{
+        font-size: 8vw;
+    }
+
+    section{
+        margin: 5rem 0;
+    }
+
+    .--toolbox-icons{
+        margin: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .--tool {
+        background-color: #1c1d26;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+    }
+
+    .--icon {
+        font-size: 5vw;
+    }
+}
