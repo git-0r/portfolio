@@ -6,32 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohit | Blogs</title>
-    <link rel="shortcut icon" href="images/Screenshot_2016-10-05-17-55-42_com.miui.home_2.jpg" type="image/x-icon">
+    <link rel="icon" href="https://img.icons8.com/doodle/48/000000/sun--v1.png" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <nav>
-        <span class="--nav-name">
-            <img class="meimg" src="images/Screenshot_2016-10-05-17-55-42_com.miui.home_2.jpg" alt="">
-            <p>ROHIT</p>
-        </span>
-        <ul class="--nav-links">
-            <li class="--nav-link">
-                <a href="index.html" alt="home">Home</a>
-            </li>
-            <li class="--nav-link">
-                <a href="projects.html" alt="projects">Projects</a>
-
-            </li>
-            <li class="--nav-link">
-                <a href="blogs.html" alt="blogs">Blogs</a>
-
-            </li>
-        </ul>
+    <nav class="--navbar">
+        <a class="--link-secondary" href="index.html" alt="home">Home</a>
+        <a class="--link-secondary" href="projects.html" alt="projects">Projects</a>
+        <a class="--link-primary" href="blogs.html" alt="blogs">Blogs</a>
     </nav>
 
+    <h2>Blogs</h2>
 
     <div class="--cards">
 
@@ -58,27 +45,34 @@
 
 
     <footer>
-        <h3>Contact Me !</h3>
-        <div class="--footer-social-icons">
-
-            <a href="https://twitter.com/DailyIcode" target="_blank">
-                <ion-icon name="logo-twitter"></ion-icon>
+        <h1 class="--footer-heading">That’s it! Now it’s<br />your turn to say hi.</h1>
+        <h2>let's connect <span class="--footer-hand-shake">🤝</span></h2>
+        <div class="--footer-social-links">
+            <a class="--link-primary" href="mailto:rohitdec97@gmail.com?subject=Hello there 👋">Say Hello!</a>
+            <a class="--footer-social-icon" rel="noreferrer" href="https://twitter.com/l0gical_cat" target="_blank">
+                <img src="images/icon-twitter.svg" alt=""></img>
             </a>
-            <a href="https://github.com/git-0r" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
+            <a class="--footer-social-icon" rel="noreferrer" href="https://www.linkedin.com/in/rohit-663b91125"
+                target="_blank">
+                <img src="images/icon-linkedin.svg" alt=""></img>
             </a>
-            <a href="https://www.linkedin.com/in/rohit-663b91125" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-
+            <a class="--footer-social-icon" rel="noreferrer" href="https://github.com/git-0r" target="_blank">
+                <img src="images/icon-octocat.svg" alt=""></img>
             </a>
         </div>
+        <button class="--footer-scrollToTopBtn">☝️</button>
     </footer>
 
 
     <script src="js/blogs.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script>
+        const scrollTopBtn = document.querySelector('.--footer-scrollToTopBtn')
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: "smooth" })
+        })
+    </script>
 
 </body>
 
