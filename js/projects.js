@@ -46,7 +46,7 @@ const cardData = [
     },
     {
         img: "images/mark8.png",
-        heading: "Enoji Interpretor",
+        heading: "Emoji Interpretor",
         description: "App to find the meaning of an emoji",
         live: "https://codesandbox.io/embed/github/git-0r/mark8_emojiApp/tree/main/?fontsize=14&hidenavigation=1&theme=dark",
         code: "https://github.com/git-0r/mark8_emojiApp",
